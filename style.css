@@ -9,6 +9,9 @@ h2{
     font-size: 40px;
     color: darkslategrey;
 }
+h3{
+    font-size: 35px;
+}
 p{
     font-size: 20px;
 }
@@ -50,4 +53,23 @@ p{
     background-repeat: no-repeat;
     background-position: right;
     padding-bottom: 50px;
+}
+.center-align{
+    text-align: center;
+}
+.mission{
+    width: 21%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px slategrey;
+}
+.mission img{
+    height: 200px;
+    width: 270px;
+}
+#mission-margin{
+    margin:100px 20px;
 }
