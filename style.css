@@ -3,10 +3,10 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 70px;
 }
 h2{
-    font-size: 40px;
+    font-size: 50px;
     color: darkslategrey;
 }
 h3{
@@ -31,6 +31,9 @@ p{
 }
 .half-width img{
     margin-top: 80px;
+    border-radius: 10px;
+    height: 400px;
+    width: 600px;
 }
 .button-design{
     text-decoration: none;
@@ -49,7 +52,7 @@ p{
     padding-bottom: 30px;
 }
 .bg-image{
-    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-position: right;
     padding-bottom: 50px;
@@ -69,7 +72,33 @@ p{
 .mission img{
     height: 200px;
     width: 270px;
+    border-radius: 20px;
 }
 #mission-margin{
     margin:100px 20px;
+}
+#People-Donation{
+    width: 80%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px slategray;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 150px;
+}
+.collaboration{
+    width: 33%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+footer{
+    background-color: rgb(27, 23, 23);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+footer p{
+    color: white;
+}
+footer h3{
+    color: rgb(54, 53, 53)
 }
