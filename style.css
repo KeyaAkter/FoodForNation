@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+.coral-color{
+    color: coral;
+}
+.light-color{
+    color: cornflowerblue;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 200px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 50px;
+}
+.half-width img{
+    margin-top: 80px;
+}
+.button-design{
+    text-decoration: none;
+    background-image: linear-gradient(coral,orange);
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 650;
+    color: white;
+}
