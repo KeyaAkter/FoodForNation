@@ -5,6 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+    color: darkslategrey;
+}
 p{
     font-size: 20px;
 }
@@ -16,7 +20,7 @@ p{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -29,7 +33,21 @@ p{
     text-decoration: none;
     background-image: linear-gradient(coral,orange);
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 30px;
     font-weight: 650;
     color: white;
+    box-shadow: 10px 10px 10px rgb(235, 101, 53);
+}
+.top-padding{
+    padding-top: 100px;
+}
+.top-padding-s2{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.bg-image{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 50px;
 }
