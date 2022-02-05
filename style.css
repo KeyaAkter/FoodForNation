@@ -27,20 +27,21 @@ p{
 }
 .half-width{
     width: 50%;
-    padding-left: 50px;
+    padding-left: 100px;
 }
 .half-width img{
     margin-top: 80px;
     border-radius: 10px;
-    height: 400px;
-    width: 600px;
+    height: 500px;
+    width: 700px;
 }
 .button-design{
     text-decoration: none;
     background-image: linear-gradient(coral,orange);
     padding: 20px;
     border-radius: 30px;
-    font-weight: 650;
+    font-size: 30px;
+    font-weight: 700;
     color: white;
     box-shadow: 10px 10px 10px rgb(235, 101, 53);
 }
@@ -68,10 +69,11 @@ p{
     padding: 20px;
     border-radius: 20px;
     box-shadow: 10px 10px 40px slategrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .mission img{
-    height: 200px;
-    width: 270px;
+    height: 300px;
+    width: 350px;
     border-radius: 20px;
 }
 #mission-margin{
@@ -95,10 +97,12 @@ footer{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 footer p{
     color: white;
 }
 footer h3{
-    color: rgb(54, 53, 53)
+    font-size: 50px;
+    color: rgb(17, 128, 91);
 }
